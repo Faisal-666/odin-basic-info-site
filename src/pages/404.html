@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Contact page</title>
+    <style>
+        :root {
+            --color-primary: hsl(48, 96%, 53%);
+            --color-primary-hover: hsl(45, 93%, 47%);
+            --color-bg-dark: hsl(0, 0%, 9%);
+            --color-text: hsl(0, 0%, 89%);
+            --radius-button: 10px;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+
+            font-family: monospace, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background-color: var(--color-bg-dark);
+            color: var(--color-text);
+        }
+        a {
+            text-decoration: none;
+            padding: .75em 1.3em;
+            color: var(--color-text);
+            background-color: var(--color-primary);
+            color: var(--color-bg-dark);
+            border-radius: var(--radius-button);
+        }
+        .code {
+            color: var(--color-primary);
+            font-size: 1.5em;
+        }
+    </style>   
+</head>
+<body>
+    <h1><span class='code'>404 </span>Not Found</h1>
+    <a href='/'>Back to Index pages</a>
+</body>
+</html>
